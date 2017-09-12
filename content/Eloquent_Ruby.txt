@@ -31,6 +31,11 @@ Russ tries to remain neutral with his choice of Ruby implementations but the boo
 
 I wholeheartedly recommend this book to anyone except those who, well, could have written a similar book themselves. The short punchy chapters make it a delight to read and gives the option of reading it merely 10 minutes at a time before bed or similar. The short chapters also make it useful as a reference if you forget how to do a certain thing like, say, use method_missing, even though it's not put together as a reference book at all. Lastly, this book is a must read if you're not confident with Ruby idioms and the best way to structure and lay out your code - Russ's approaches reinforce the current "standard" way to write Ruby and this alone is worth the price of admission.
 
+
+
+
+
+
 Review #2 Title:  Eloquent Olsen
 Reviewer #2:  Fogus
 Review #2 Date:  March 7, 2011
