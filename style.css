@@ -34,17 +34,8 @@ html {
   text-align: center;
 }
 
-/*#nav, #feature, .article, #footer {
-margin-top: 20px;
-padding: 10px 0px 5px 0px;
-}
-
-#feature, .article {
-height: 100px;
-}*/
-
 li {
-  display: inline;
+  display: inline-block;
   padding: 5px;
 }
 
@@ -55,13 +46,46 @@ h1 {
   border-radius: 100px;
 }
 
+h2 {
+  border: 2px solid red;
+  background-color: black;
+  border-radius: 100px;
+}
+
+h3 {
+  border: 2px solid red;
+  background-color: black;
+  border-radius: 100px;
+}
+
+/*p {
+  background-color: black;
+}*/
+
 /* Index specific CSS*/
-
-
+/*img {
+    width:  250px;
+    height: 350px;
+}*/
 
 /* Eloquent_Ruby specific CSS */
+/*#ER {
+  float: left;
+}*/
 
+#ER {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+    column-fill: auto;
+}
 
+#Reviews {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+    column-fill: auto;
+}
 
 /* Contact specific CSS */
 .Hedwigisawesome {
@@ -71,12 +95,6 @@ h1 {
 .Contact {
   float: right;
 }
-
-
-
-/*ul {
-List-style: none
-}*/
 
 /* Footer */
 .footer {
