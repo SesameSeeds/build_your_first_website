@@ -1,63 +1,94 @@
 /* Background for all pages. */
 
 html {
-    background: url(./images/ruby.jpg) no-repeat center fixed;
-    background-size: cover;
+  background: url(./images/ruby.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 /* Navigation bar for all pages. */
 .topnav {
-    overflow: hidden;
-    background-color: black;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: 1px solid red;
+  border-radius: 10px;
 }
 
 .topnav a {
-    float: left;
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .topnav a:hover {
-    background-color: red;
-    color: black;
+  background-color: red;
+  color: black;
 }
 
 /* Base for all pages (in theory). */
- * {
-   font-family: Arial, Verdana, sans-serif;
-   color: white
-   ;
-   text-align: center;
- }
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
 
- #nav, #feature, .article, #footer {
-   margin-top: 20px;
-   padding: 10px 0px 5px 0px;
- }
+/*#nav, #feature, .article, #footer {
+margin-top: 20px;
+padding: 10px 0px 5px 0px;
+}
 
- #feature, .article {
-   height: 100px;
- }
+#feature, .article {
+height: 100px;
+}*/
 
- li {
-   display: inline;
-   padding: 5px;
- }
+li {
+  display: inline;
+  padding: 5px;
+}
+
+/* Header block dealio */
+h1 {
+  border: 2px solid red;
+  background-color: black;
+  border-radius: 100px;
+}
+
+/* Index specific CSS*/
+
+
+
+/* Eloquent_Ruby specific CSS */
+
+
+
+/* Contact specific CSS */
+.Hedwigisawesome {
+  float: left;
+}
+
+.Contact {
+  float: right;
+}
+
+
 
 /*ul {
-  List-style: none
+List-style: none
 }*/
 
 /* Footer */
 .footer {
   position: bottom;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
+  color: grey;
+  border-top: 2px solid red;
+  border-radius: 10px;
   background-color: black;
   text-align: center;
 }
