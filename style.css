@@ -27,7 +27,7 @@ html {
 
 /* Base for all pages (in theory). */
  * {
-   font-family: Comic Sans, Verdana, fantasy;
+   font-family: Arial, Verdana, sans-serif;
    color: white
    ;
    text-align: center;
@@ -50,3 +50,14 @@ html {
 /*ul {
   List-style: none
 }*/
+
+/* Footer */
+.footer {
+  position: bottom;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
